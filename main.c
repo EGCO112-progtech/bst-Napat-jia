@@ -27,6 +27,6 @@ for ( i = 1; i < argc; ++i ) {
    printf("\n");
    
    int count = 0 ;
-   Lab(b.root,count);
+   printTree(b.root,count);
 } // end main
 

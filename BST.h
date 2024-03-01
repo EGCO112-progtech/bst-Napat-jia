@@ -123,19 +123,19 @@ void postOrder( TreeNodePtr treePtr )
 
 
 
-void Lab( TreeNodePtr treePtr,int count)
+void printTree( TreeNodePtr treePtr,int count)
 
 {  
    // if tree is not empty, then traverse
    int i ;
    if ( treePtr != NULL ) {        
 
-      Lab(treePtr->rightPtr,count+1);
+      printTree(treePtr->rightPtr,count+1);
 
       for(i = 0 ;i < count ;i++)printf("    ");
       printf("%3d\n",treePtr->data) ;  //print the value 
       
-      Lab(treePtr->leftPtr,count+1) ;
+      printTree(treePtr->leftPtr,count+1) ;
       
    }// end if                          
 
