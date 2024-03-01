@@ -133,7 +133,7 @@ void Lab( TreeNodePtr treePtr,int count)
       Lab(treePtr->rightPtr,count+1);
 
       for(i = 0 ;i < count ;i++)printf("    ");
-      printf("%-3d\n",treePtr->data) ;  //print the value 
+      printf("%3d\n",treePtr->data) ;  //print the value 
       
       Lab(treePtr->leftPtr,count+1) ;
       
