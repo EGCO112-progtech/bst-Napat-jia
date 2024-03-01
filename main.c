@@ -24,8 +24,8 @@ for ( i = 1; i < argc; ++i ) {
    // traverse the tree postOrder
    printf("\npostnOrder\n" );   
    postOrder(b.root);
+   printf("\n");
    
-   //printf("\n");
    int count = 0 ;
    Lab(b.root,count);
 } // end main
